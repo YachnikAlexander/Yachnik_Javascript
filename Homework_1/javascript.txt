@@ -1,0 +1,10 @@
+var a = prompt("Enter a number",''), chislo = 0;
+stroka = a.toString();
+n = stroka.length;
+for(i=0; i<n; i++)
+{
+	var b=stroka.charAt(i);
+	var c= Number(b);
+	chislo+=c;
+}
+alert(chislo);
