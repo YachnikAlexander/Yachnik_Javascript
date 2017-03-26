@@ -1,0 +1,11 @@
+var now = new Date();
+var Tommorow = new Date(now);
+Tommorow.setDate(Tommorow.getDate()+1);
+Tommorow.setHours(0);
+Tommorow.setMinutes(0);
+Tommorow.setSeconds(0);
+var razn = Tommorow - now;
+var Hour = Math.floor(razn/3600000);
+var Minutes = Math.floor((razn/3600000-Hour)*60);
+var Seconds = Math.floor(((razn/3600000-Hour)*60-Minutes)*60);
+alert("Hours "+Hour+" Minutes "+Minutes+" Seconds "+Seconds);
