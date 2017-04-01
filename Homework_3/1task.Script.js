@@ -18,7 +18,7 @@ for(var i = 0; i<n; i++){
 	
 }
 for(var i = 0; i<n; i++){
-	document.writeln(peoples[i].name + "-" + peoples[i].city + "-" + peoples[i].age+"    ");
+	document.write(peoples[i].name + "-" + peoples[i].city + "-" + peoples[i].age+"    ");
 }
 
 
