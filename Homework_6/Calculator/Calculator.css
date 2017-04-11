@@ -1,0 +1,23 @@
+.table { 
+display: table; 
+} 
+.table-row { 
+display: table-row; 
+} 
+.table-cell { 
+display: table-cell; 
+text-align: center;
+
+}
+textarea {
+	resize: none;
+
+}
+.otvet{
+	position: absolute;
+	left: 500px;
+}
+img{
+	height: 100px;
+}
+
