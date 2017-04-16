@@ -1,0 +1,39 @@
+p{
+	margin:0;
+}
+.first{
+	top:50px;
+	left: 50px;
+	position: absolute;
+	background-color: yellow;
+	font-size: 25px;
+	padding: 20px;
+	width:300px;
+	color:red;
+	list-style-type: none;
+	display: block;
+}
+.two{
+	top:175px;
+	left: 150px;
+	position: absolute;
+	background-color: gray;
+	font-size: 25px;
+	padding: 20px;
+	width:300px;
+	color:white;
+	list-style-type: none;
+	display: none;
+}
+.three{
+	top:300px;
+	left: 250px;
+	position: absolute;
+	background-color:green;
+	font-size: 25px;
+	padding: 20px;
+	width:300px;
+	color:white;
+	list-style-type: none;
+	display: none;
+}
