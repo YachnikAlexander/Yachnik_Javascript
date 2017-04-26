@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Concert+One');
+
+/*For main page*/
+.Hello{
+	display:flex;
+	justify-content: center;
+	padding:20px;
+	background-color: #929090;
+}
+
+p{
+	font-family: 'Concert One', cursive;
+	font-size: 24px;
+	margin:0px;
+}
+
+.first_but{
+	margin:20px;
+	display: flex;
+	justify-content: center;
+}
+
+.second_but{
+	margin:20px;
+	display: flex;
+	justify-content: center;
+}
+
+button{
+	padding: 20px;
+	background-color: #929090;
+	color:white;
+	border-radius: 25px;
+}
+
+/*2players*/
+
+.Table{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin-top:10px; 
+}
+
+td{
+	background-size: contain;
+	padding:80px;
+	border:3px #929090 solid;
+}
+.winner1{
+	position:absolute;
+	left:40%;
+	top:45%;
+	display: none;
+	padding:20px;
+	background-color:#929090; 
+	box-shadow: 0 0 100px rgba(0,0,0,1); 
+
+}
+.winner2{
+	position:absolute;
+	left:39%;
+	top:45%;
+	display: none;
+	padding:20px;
+	background-color:#929090; 
+	box-shadow: 0 0 100px rgba(0,0,0,1); 
+}
+.No{
+	position:absolute;
+	left:44%;
+	top:45%;
+	display: none;
+	padding:20px;
+	background-color:#929090;
+	box-shadow: 0 0 100px rgba(0,0,0,1);  
+}
+
+
+

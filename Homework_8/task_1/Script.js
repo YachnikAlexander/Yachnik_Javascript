@@ -1,7 +1,7 @@
 var list = document.querySelector(".list");
 var html = document.querySelector("html");
 
-html.addEventListener("click", function(e){
+html.addEventListener("contextmenu", function(e){
 
 	if(window.getComputedStyle(list).display=="none"){
 		list.style.top = e.clientY+"px";
@@ -11,9 +11,9 @@ html.addEventListener("click", function(e){
 	else 
 		if(e.target == this)
 		list.style.display = "none";		
-		
+	
+})
 
-	
-	
-	
+html.addEventListener("contextmenu", function(e){
+	e.preventDefault();
 })
