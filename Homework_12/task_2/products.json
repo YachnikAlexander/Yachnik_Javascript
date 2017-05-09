@@ -1,0 +1,38 @@
+[
+	{
+		"name":"Bizon",
+		"type":"Drink",
+		"count":2,
+		"price": 20
+	},
+	{
+		"name":"Nyasha",
+		"type":"Food",
+		"count":1,
+		"price": 40
+	},
+	{
+		"name":"Gula",
+		"type":"Machine",
+		"count":3,
+		"price": 60
+	},
+	{
+		"name":"Bonaqua",
+		"type":"Drink",
+		"count":1,
+		"price": 40
+	},
+	{
+		"name":"Berezinskiy",
+		"type":"Food",
+		"count":1,
+		"price": 60
+	},
+	{
+		"name":"Lidova",
+		"type":"Machine",
+		"count":3,
+		"price": 40
+	}
+]

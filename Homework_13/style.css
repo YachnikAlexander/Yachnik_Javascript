@@ -42,4 +42,62 @@
 	display: flex;
 	flex-direction: row;
 	margin:10px;
+	height: 25px;
+}
+.color{
+	margin-left:20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.color > button{
+	margin:5px;
+	background: grey;
+	color:white;
+	font-family:sans-serif;
+	font-size: 15px;
+}
+h3{
+	margin:5px;
+}
+.alignment{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.indents > button{
+	margin:5px;
+	background: grey;
+	color:white;
+	font-family:sans-serif;
+	font-size: 15px;
+}
+.list > button{
+	margin:5px;
+	background: grey;
+	color:white;
+	font-family:sans-serif;
+	font-size: 25px;
+}
+.verticalText{
+	margin:5px;
+	background: grey;
+	color:white;
+	font-family:sans-serif;
+	font-size: 15px;
+}
+.remove{
+	margin:5px;
+	background: grey;
+	color:white;
+	font-family:sans-serif;
+	font-size: 15px;
+}
+.podsvech{
+	margin:5px;
+	background: black;
+	color:white;
+	font-family:sans-serif;
+	font-size: 30px;
 }
