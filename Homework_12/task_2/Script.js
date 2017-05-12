@@ -8,15 +8,15 @@ var callbackfunc = function(text){
 	body.appendChild(div)
 }
 
-xhr.open("GET","load.html",true);
+
 window.addEventListener("scroll", function(e){
 	console.log(body.scrollHeight)
-	if(html.getBoundingClientRect().bottom<body.scrollHeight-1000){
-		console.log("TUUUT")
+	if(html.getBoundingClientRect().bottom<1000){
+		xhr.open("GET","load.html",true);
 		xhr.onload = function(){
 			callbackfunc(xhr.responseText);
 		}
+		xhr.send(null)
 	}
 })
 
-xhr.send(null)
